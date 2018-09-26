@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>myServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>Hello</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/servlet/Hello</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/servlet/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>resultServlet</servlet-name>
+        <servlet-class>resultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>resultServlet</servlet-name>
+        <url-pattern>/resultServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Google</servlet-name>
+        <servlet-class>Google</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Google</servlet-name>
+        <url-pattern>/Google</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        
+        <welcome-file>Mypage.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
